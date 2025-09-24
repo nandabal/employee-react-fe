@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-const Main = ({child}) => {
+const Base = ({child}) => {
   return (
     <div>
       <Navbar/>
@@ -10,4 +10,4 @@ const Main = ({child}) => {
   )
 }
 
-export default Main
+export default Base

@@ -4,14 +4,14 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import {Routes, Route} from 'react-router-dom'
 import EmployeeForm from './components/EmployeeForm'
-import Main from './components/main'
+import Base from './components/Base'
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Main child={<Home/>}/>}/>
-        <Route path='/form' element={<Main child={<EmployeeForm/>}/>}/>
+        <Route path='/' element={<Base child={<Home/>}/>}/>
+        <Route path='/form' element={<Base child={<EmployeeForm/>}/>}/>
       </Routes>
     </>
   )
