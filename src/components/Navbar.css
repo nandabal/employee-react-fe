@@ -1,0 +1,19 @@
+nav{
+        border: 1px solid;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    background: #6B8E23;
+background: linear-gradient(90deg, rgba(107, 142, 35, 1) 0%, rgba(131, 204, 22, 1) 35%, rgba(0, 100, 0, 1) 100%);
+   width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.nav-items{
+    position: relative;
+    top: 31px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
