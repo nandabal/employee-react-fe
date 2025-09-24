@@ -25,7 +25,7 @@ const Home = () => {
   {employees.map(user => (
     <div className="col-md-3 text-center" key={user.id}>
       <div className="card p-3 d-flex align-items-center">
-        <img src="public/profile.jpg" alt="" />
+        <img src="/profile.jpg" alt="" />
         <div className="card-body">
           <h5 className="card-title">{user.id}</h5>
           <p className="card-text">{user.name}</p>
